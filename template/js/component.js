@@ -3,6 +3,9 @@ import {Component} from 'strudel';
 @Component('.component')
 class Example {
 	init() {
-		this.element.text('Example strudel component');
+		this.element.html(`
+			<img src="assets/strudel.png">
+			<p>Strudel component</p>
+		`);
 	}
 }
