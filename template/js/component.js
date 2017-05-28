@@ -4,7 +4,6 @@ import {Component} from 'strudel';
 class Example {
 	init() {
 		this.element.html(`
-			<img src="assets/strudel.png">
 			<p>Strudel component</p>
 		`);
 	}
