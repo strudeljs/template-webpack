@@ -10,7 +10,7 @@
     "build": "cross-env NODE_ENV=production webpack"
   },
   "dependencies": {
-    "strudel": "^0.3.0"
+    "strudel": "^0.3.1"
   },
   "devDependencies": {
     "babel-core": "^6.24.0",
