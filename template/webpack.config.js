@@ -1,10 +1,11 @@
 const path = require('path');
+const glob = require("glob");
 const webpack = require('webpack');
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 module.exports = {
 	entry: {
-		'main.js': './js/main.js',
+		'main.js': glob.sync('./js/*.js'),
 		'main.css': './sass/main.scss'
 	},
 	output: {

@@ -10,7 +10,7 @@
     "build": "cross-env NODE_ENV=production webpack"
   },
   "dependencies": {
-    "strudel": "^0.3.6"
+    "strudel": "^0.5.5"
   },
   "devDependencies": {
     "babel-core": "^6.24.0",
@@ -22,6 +22,7 @@
     "css-loader": "^0.25.0",
     "extract-text-webpack-plugin": "^2.1.0",
     "file-loader": "^0.9.0",
+    "glob": "^7.1.2",
     "node-sass": "^4.5.0",
     "sass-loader": "^5.0.1",
     "style-loader": "^0.18.1",

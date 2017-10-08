@@ -4,15 +4,20 @@
 }
 
 body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
   background: #FFDA5C;
-  font-family: HElvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
-.header {
+.header,
+.footer {
   background: #FFFFFF;
   padding: 20px;
 }
 
 .wrapper {
+  flex: 1;
   padding: 20px;
 }
