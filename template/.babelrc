@@ -1,11 +1,11 @@
 {
   "presets": [
-    [
-      "es2015",
-      {
-        "modules": false
+    ["@babel/preset-env", {
+      "modules": false,
+      "targets": {
+        "browsers": ["last 2 versions"]
       }
-    ]
+    }]
   ],
   "plugins": [
     "transform-decorators-legacy",
