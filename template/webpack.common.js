@@ -60,6 +60,18 @@ module.exports = (options) => {
 				entries: globEntries([entryPatterns.sass], { sass: true }),
 			}),
 		],
+		optimization: {
+            splitChunks: {
+                chunks: 'all',
+                cacheGroups: {
+                    vendors: {
+                        name: 'dist/vendors',
+                        test: /[\\/]node_modules[\\/]/,
+                        priority: -10
+                    },
+                }
+			},
+		}
 	}
 	return config;
 }
