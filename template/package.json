@@ -26,7 +26,7 @@
     "hard-source-webpack-plugin": "0.9.0",
     "mini-css-extract-plugin": "^0.4.0",
     "multiple-bundles-webpack-plugin": "^0.1.5",
-    "node-sass": "4.5.0",
+    "node-sass": "4.13.1",
     "optimize-css-assets-webpack-plugin": "^4.0.3",
     "sass-loader": "^7.0.3",
     "style-loader": "^0.21.0",
